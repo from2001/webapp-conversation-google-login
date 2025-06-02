@@ -40,6 +40,18 @@ export const promptTemplate = ''
 ```
 
 ## Getting Started
+
+### Using DevContainer (Recommended)
+This project includes a DevContainer configuration for a consistent development environment.
+
+1. Install [Docker](https://www.docker.com/get-started) and [VS Code](https://code.visualstudio.com/)
+2. Install the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) for VS Code
+3. Open the project in VS Code
+4. When prompted, click "Reopen in Container" or use the Command Palette (Ctrl/Cmd+Shift+P) and select "Dev Containers: Reopen in Container"
+5. VS Code will build the container and install dependencies automatically
+6. Run the development server: `npm run dev`
+
+### Manual Setup
 First, install dependencies:
 ```bash
 npm install
