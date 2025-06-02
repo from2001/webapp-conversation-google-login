@@ -14,6 +14,15 @@ NEXT_PUBLIC_APP_KEY=
 
 # APP URL: This is the API's base URL. If you're using the Dify cloud service, set it to: https://api.dify.ai/v1.
 NEXT_PUBLIC_API_URL=
+
+# Google OAuth Configuration
+GOOGLE_CLIENT_ID=your-google-client-id
+GOOGLE_CLIENT_SECRET=your-google-client-secret
+NEXTAUTH_SECRET=your-nextauth-secret
+NEXTAUTH_URL=http://localhost:3000
+
+# Allowed domains for Google authentication (comma-separated)
+ALLOWED_DOMAINS=example.com,anotherdomain.org
 ```
 
 Config more in `config/index.ts` file:   
